@@ -1,11 +1,11 @@
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import Badge from "react-bootstrap/esm/Badge"
 import { Link } from "react-router-dom"
 import { AuthContext } from "../../providers/AuthProvider"
 import Card from "../Card"
 
 const Home = ()=>{
-    
+  
     // let auth = useContext(AuthContext)
     // if(!auth.user){
     //     return <p>
